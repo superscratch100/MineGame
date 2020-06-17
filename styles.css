@@ -11,7 +11,10 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: #333;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .container{
@@ -21,8 +24,19 @@ body {
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px 2px;
+    opacity: 78%;
 }
 
+
+.footer{
+    width: 800x;
+    max-width: 100%;
+    font-size: xx-small;
+    color: rgb(163, 162, 162);
+    /* background-color: rgb(41, 38, 38); */
+    margin-top:10px;
+    padding:0px;
+}
 
 .btn-grid {
     display: grid;
@@ -37,7 +51,7 @@ body {
     border: 1px solid hsl(113,97%,30%);
     border-radius: 5px;
     padding: 5px 10px;
-    color: white;
+    color: black;
     outline: none;
 }
 
